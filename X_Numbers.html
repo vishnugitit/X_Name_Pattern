@@ -1,0 +1,14 @@
+<script>
+  rows = +prompt("Rows: ");
+  for (i = 1; i <= rows; i++) {
+    res = "";
+    for (j = 1; j <= rows; j++) {
+      if (i == j || i + j == rows + 1) {
+        res = res + j + " ";
+      } else {
+        res = res + "  ";
+      }
+    }
+    console.log(res);
+  }
+</script>

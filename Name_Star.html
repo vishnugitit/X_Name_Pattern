@@ -1,0 +1,17 @@
+<script>   
+rows=prompt("Name: ")
+index=0;
+num=0;
+for(i=1;i<=(rows.length/2);i++){
+    res=""
+    for(j=1;j<=i;j++){
+        if(rows[num]==undefined){
+            res=res+"* ";
+        }else{
+        res=res+rows[num]+" ";
+        num++;
+        }
+    } 
+    console.log(res)
+}
+</script>
